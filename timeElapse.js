@@ -108,8 +108,6 @@ function removeDueReminder(reminder_card) {
 
   if (index !== -1) {
     reminders.splice(index, 1);
-
-    // Update the reminders variable with the modified array
     localStorage.setItem("value", JSON.stringify(reminders));
   }
 }
