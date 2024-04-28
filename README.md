@@ -35,6 +35,10 @@ The Reminder App is a simple web application built with HTML, CSS, Bootstrap, an
    - Reminders that are due will automatically be deleted from the list 30 seconds after being displayed.
    - The app will also play an alarm to notify you of the due reminder.
 
+## Live Website
+
+[View the live website here](https://skillsforge-reminder-app.vercel.app/)
+
 ## Contributors
 
 - [Obatola Opeyemi Oluwatosin](https://github.com/opeyemi-code)
