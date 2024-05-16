@@ -15,13 +15,13 @@ function displayModal(dueReminders) {
       <div class='modal-content'>
       <div class='d-flex justify-content-between align-items-center my-2 px-2 border-bottom pb-1'>
       <h2 class='card-title text-success'>Reminder</h2>
-      <button class='close close-modal btn btn-dark' type='button'>X</button>
+      <button class='close close-modal btn btn-dark ms-5' type='button'>X</button>
       </div>
       <p class='card-body'>${
         dueReminders.length > 1 ? "Reminders" : "Reminder"
       } due: ${dueReminders.join(", ")}</p>
       <hr>
-      <button class='close-modal btn btn-danger float-end' type='button'>close</button>
+      <button class='close-modal btn btn-danger float-end mb-3 mx-2' type='button'>close</button>
       </div>`;
 
   body.appendChild(card);
